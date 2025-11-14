@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #f0f4ff, #e0e7ff);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.leftSection {
+  flex: 1;
+  max-width: 700px;
+  padding: 2rem;
+  background: rgb(120, 192, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a4e69;
+  margin-bottom: 1rem;
+}
+
+.mainHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #22223b;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 50%;
+  background: rgb(68, 157, 209);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+  width: 100%;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.fullInput {
+  width: 100%;
+  padding: 0.55rem 1rem;
+  font-size: 1.3rem;
+  background: #e0e7ff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: #657a9b;
+  font-weight: 500;
+  transition: border 0.3s ease;
+}
+
+.fullInput:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.requestButton {
+  background: rgb(21, 5, 120);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.requestButton:hover {
+  background: #4f46e5;
+}
+
+.consentText {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+  color: #6b7280;
+  max-width: 600px;
+}
+
+.fareCard {
+  width: 60%;
+  background-color: rgb(120, 192, 224);
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(141, 142, 201, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.fareCard:hover {
+  transform: scale(1.02);
+}
+
+.fareTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #070620;
+  margin-bottom: 0.5rem;
+}
+
+.fareText {
+  font-size: 0.8rem;
+  color: #050b14;
+}
+
+.fareWarning {
+  font-size: 0.8rem;
+  color: #473d3d;
+  font-weight: 500;
+}

@@ -1,0 +1,373 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+/* --- Main Layout --- */
+.adminDashboard {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: #f4f7fa;
+}
+
+/* --- Sidebar Styles --- */
+.sidebar {
+  width: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #007bff;
+  border-left: 2px solid #e0e0e0;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.sidebarLogo {
+  margin-bottom: 30px;
+}
+.sidebarLogo h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+}
+
+.navButton {
+  padding: 0;
+  width: 54px;
+  height: 54px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.navIcon {
+  font-size: 22px;
+}
+
+.navButton:hover {
+  background-color: #f0f4ff;
+  color: #007bff;
+}
+
+.navButton.active {
+  background-color: #fff;
+  color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* --- Main Content Area --- */
+.mainContent {
+  flex-grow: 1;
+  margin-right: 80px; /* Space for the desktop sidebar */
+  margin-left: 0;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.mainContent h2 {
+  /* background-color: #007bff; */
+  color: #007bff;
+  padding: 30px 50px;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-top: -30px;
+}
+
+/* --- Profile Card Container --- */
+.profileCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* --- Profile Card --- */
+.profileCard {
+  background: linear-gradient(135deg, #e0f2f7, #f0f8ff);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 280px;
+}
+
+.profileCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.profileImage {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.profileName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.profileDetail {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.profileButtons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* --- "Liquid" Button Styles --- */
+.profileButton {
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #e0f2f7, #f0f8ff);
+  box-shadow: 4px 4px 10px #c9d6de, -4px -4px 10px #ffffff;
+}
+
+.profileButton.edit {
+  color: #007bff;
+}
+
+.profileButton.delete {
+  color: #dc3545;
+}
+
+.profileButton:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 6px 15px #c9d6de, -6px -6px 15px #ffffff;
+}
+
+.profileButton:active {
+  transform: scale(0.98);
+  box-shadow: inset 4px 4px 8px #c9d6de, inset -4px -4px 8px #ffffff;
+}
+
+/* --- Ride History Card Styles --- */
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.cardBody {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 4px 0;
+}
+
+.rideCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.rideCardHeader .cardTitle {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.cardBodyLocation {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0;
+  line-height: 1.5;
+}
+
+.cardBodyLocation strong {
+  color: #333;
+}
+
+.rideStatus {
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #e0e7ff;
+  color: #4338ca;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+/* --- Ride Filter Button Styles --- */
+.rideFilterButtons {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.rideFilterButtons button {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rideFilterButtons button:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.rideFilterButtons button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+  font-weight: 600;
+}
+
+/*
+=========================================
+--- RESPONSIVE STYLES (Mobile/Tablet) ---
+=========================================
+*/
+@media (max-width: 768px) {
+  /* 1. Sidebar becomes a Bottom Bar */
+  .sidebar {
+    width: 100%; /* Full width */
+    height: 65px; /* Fixed height for the bottom bar */
+    bottom: 0; /* Stick to the bottom */
+    top: auto; /* Unset top */
+    right: auto; /* Unset right */
+    left: 0; /* Align to the left */
+
+    flex-direction: row; /* Lay out items horizontally */
+    justify-content: space-around; /* Evenly space the links */
+    padding: 0 10px; /* Some horizontal padding */
+
+    border-left: none; /* Remove side border */
+    border-top: 2px solid #e0e0e0; /* Add top border */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05); /* Adjust shadow */
+  }
+
+  /* 2. Hide the logo on mobile */
+  .sidebarLogo {
+    display: none;
+  }
+
+  /* 3. Adjust Nav Links for horizontal layout */
+  .navLinks {
+    flex-direction: row; /* Horizontal links */
+    justify-content: space-around; /* Space them out */
+    width: 100%; /* Fill the bar */
+    gap: 10px; /* Smaller gap */
+  }
+
+  /* 4. Adjust Main Content Area */
+  .mainContent {
+    /* Remove margin for sidebar */
+    margin-right: 0;
+    /* Add margin for new bottom bar */
+    margin-bottom: 80px; /* Space for the 65px bar + buffer */
+
+    /* Reduce padding for small screens */
+    padding: 15px;
+  }
+
+  /* 5. Fix the Full-Width Header */
+  .mainContent h2 {
+    /* Match the new padding */
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+
+    /* Smaller text on mobile */
+    font-size: 1.25rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* 6. Force Grids to Single Column */
+  .profileCardContainer,
+  .cardContainer {
+    /* Stack cards vertically */
+    grid-template-columns: 1fr;
+    gap: 15px; /* Smaller gap */
+  }
+
+  /* 7. Stack profile buttons vertically */
+  .profileButtons {
+    flex-direction: column; /* Stack buttons on mobile */
+    gap: 10px;
+  }
+
+  .profileButton {
+    max-width: 100%; /* Make buttons full width */
+  }
+
+  /* 8. Make filter buttons wrap better */
+  .rideFilterButtons {
+    justify-content: center;
+  }
+}

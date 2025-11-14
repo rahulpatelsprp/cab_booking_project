@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cab_booking/Backend/cab_booking_backend/pom.xml" />
+        <option value="$PROJECT_DIR$/RideService/pom.xml" />
+        <option value="$PROJECT_DIR$/UserService/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/DriverService/pom.xml" />
+        <option value="$PROJECT_DIR$/RatingService/pom.xml" />
+        <option value="$PROJECT_DIR$/PaymentService/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGatewayServices/pom.xml" />
+        <option value="$PROJECT_DIR$/AuthSecurityServices/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

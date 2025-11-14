@@ -1,0 +1,41 @@
+.loadingpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f7f7f7;
+}
+
+.loadingspinner {
+  border: 8px solid #e0e0e0;
+  border-top: 8px solid #007bff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 24px;
+}
+
+.loadingfare {
+  margin-top: 16px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.loadingfarevalue {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.loadingerror {
+  color: red;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

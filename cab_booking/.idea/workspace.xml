@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d41c8d65-04eb-45f9-add6-fb5d9a618ff6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/test/java/com/example/demo/controller/RatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/test/java/com/example/demo/controller/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/test/java/com/example/demo/service/impl/RatingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/java/com/example/demo/controller/RideController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/java/com/example/demo/controller/RideController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/java/com/example/demo/securityConfig/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/java/com/example/demo/securityConfig/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/cab_booking_backend/src/test/java/com/example/demo/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/cab_booking_backend/src/test/java/com/example/demo/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/DriverPage/pages/RidesMenuPage/RidesMenuPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/DriverPage/pages/RidesMenuPage/RidesMenuPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/LoginPage/Pages/DriverRegistration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/LoginPage/Pages/DriverRegistration.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/LoginPage/Pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/LoginPage/Pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/LoginPage/Pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/LoginPage/Pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/ProtectedLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/ProtectedLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/UserPage/MainPages/UserHomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/UserPage/MainPages/UserHomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/UserPage/MapPages/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/UserPage/MapPages/Payment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/UserPage/MapPages/RideHistory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/UserPage/MapPages/RideHistory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/RiderController.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/RiderController.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/common/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/common/Navbar.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32jCLlADiifn1Eic36Qnk7YB5zN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "payment",
+    "last_opened_file_path": "C:/Users/2440752/Team Project/cab_booking"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d41c8d65-04eb-45f9-add6-fb5d9a618ff6" name="Changes" comment="" />
+      <created>1757924541695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757924541695</updated>
+    </task>
+    <servers />
+  </component>
+</project>
