@@ -115,7 +115,7 @@ Run:
 
 ## 🔑 Authentication Flow
 1. User registers/login → **User Service** issues JWT token
-2. Token stored in frontend (`localStorage`)
+2. Token stored in frontend (`sessionStorage`)
 3. Axios attaches token in headers for secured API calls
 4. Spring Security validates JWT for protected endpoints
 
